@@ -4,7 +4,7 @@ This directory contains the raw experimental data and genetic sequences used in 
 
 ## 📂 Data Overview
 
-The experimental data is provided in **Excel (.xlsx)** format. The files correspond to the results presented in **Figures 1–3** of the manuscript:
+The experimental data (locate in file: "experiment data") is provided in **Excel (.xlsx)** format. The files correspond to the results presented in **Figures 1–3** of the manuscript:
 
 ### Figure 1: Protein Secretion & Hydrogel Validation
 Data validating hGM-CSF secretion by engineered *E. coli* and its release kinetics from chitosan hydrogels.
@@ -33,7 +33,7 @@ Dose-response and resistance evolution assays using hBD-3 (AMP).
 ---
 
 ## 🧬 Genetic Sequences
-We provide the plasmid maps and sequences used for strain construction (compatible with **SnapGene Viewer**):
+We provide the plasmid maps and sequences  (locate in file: "gene sequence") used for strain construction (compatible with **SnapGene Viewer**):
 
 * **`PelB-rhGM-CSF.dna`**: Full construct containing the PelB signal peptide fused to the hGM-CSF coding region.
 * **`rhGM-CSF.dna`**: Coding sequence for the human Granulocyte-Macrophage Colony-Stimulating Factor.
