@@ -1,8 +1,24 @@
 # Dataset: Intelligent Control of Synthetic Probiotics and AMPs
 
-This directory contains the raw experimental data and genetic sequences used in our study, **"Intelligent Control of Synthetic Probiotics and AMPs in Simulated Wound Ecosystems"**.
+This directory contains the source code, raw experimental data and genetic sequences used in our study, **"Intelligent Control of Synthetic Probiotics and AMPs in Simulated Wound Ecosystems"**.
+
+## 💻 Code
+
+Author: Ciou, Z.-C.
+
+Two core scripts drive the simulation and optimization framework:
+
+* **`drug_delivery_optimizer.py`**: A Stacking Ensemble ML model (DCN, MLP, XGBoost, LightGBM) used to predict optimal drug delivery parameters.
+
+* **`wound_environment_simulator.py`**: An ODE-based simulator modeling the interaction between E. coli (pathogen), L. lactis (probiotic), and AMP concentration over time.
+
+Dependencies: Python 3.x, numpy, pandas, scikit-learn, tensorflow, xgboost, lightgbm.
+
+---
 
 ## 📂 Data Overview
+
+Author: Huang, P.-C.
 
 The experimental data (locate in file: "experiment data") is provided in **Excel (.xlsx)** format. The files correspond to the results presented in **Figures 1–3** of the manuscript:
 
@@ -33,6 +49,9 @@ Dose-response and resistance evolution assays using hBD-3 (AMP).
 ---
 
 ## 🧬 Genetic Sequences
+
+Author: Huang, P.-C.
+
 We provide the plasmid maps and sequences  (locate in file: "gene sequence") used for strain construction (compatible with **SnapGene Viewer**):
 
 * **`PelB-rhGM-CSF.dna`**: Full construct containing the PelB signal peptide fused to the hGM-CSF coding region.
