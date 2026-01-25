@@ -56,9 +56,3 @@ We provide the plasmid maps and sequences  (locate in file: "gene sequence") use
 
 * **`PelB-rhGM-CSF.dna`**: Full construct containing the PelB signal peptide fused to the hGM-CSF coding region.
 * **`rhGM-CSF.dna`**: Coding sequence for the human Granulocyte-Macrophage Colony-Stimulating Factor.
-
----
-
-## 🔗 Citation
-If you utilize this dataset or the sequences, please cite:
-> Ciou, Z.-C., Huang, P.-C., et al. "Intelligent Control of Synthetic Probiotics and AMPs in Simulated Wound Ecosystems." *Computers in Biology and Medicine* (Submitting).
